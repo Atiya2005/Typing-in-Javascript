@@ -1,0 +1,76 @@
+/* index.css */
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+body{
+  background-color: blueviolet;
+}
+
+.container{
+  background-color: antiquewhite;
+  padding: 50px 30px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  border-radius: 10px;
+  width: 80vh;
+  height: 80vh;
+}
+
+.stats{
+text-align: right;
+font-size: 18px;
+}
+
+.stats span{
+font-weight: 600;
+}
+
+.quote{
+text-align: justify;
+margin: 50px 0 30px 0;
+}
+
+textarea{
+resize: none;
+width: 100%;
+border-radius: 5px;
+padding: 10px 5px;
+font-size: 16px;
+}
+
+button{
+float: right;
+margin-top: 20px;
+background-color: rgb(127, 127, 235);
+color: white;
+border: none;
+padding: 10px 30px;
+border-radius: 5px;
+font-size: 18px;
+}
+
+.result{
+margin-top: 80px;
+display: none;
+}
+
+.result h3{
+text-align: center;
+font-size: 20px;
+margin-bottom: 20px;
+}
+
+.wrapper{
+display: flex;
+justify-content: space-around;
+}
+
+.wrapper span{
+font-weight: 600;
+}
